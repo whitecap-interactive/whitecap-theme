@@ -10,7 +10,7 @@
 	</head>
 	<body id="home">
 
-		<h1>Welcome to Whitecap Interactive</h1>
+		<h1>Welcome to Whitecap Interactive This shit is gonna be Boss!!</h1>
 
 	</body>
 <script src="js/jquery-2.2.3.min.js"></script>	
