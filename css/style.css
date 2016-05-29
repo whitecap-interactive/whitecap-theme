@@ -40,3 +40,44 @@ table{
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
+
+body { 
+  background:url(/images/wc-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+body#home {
+    
+}
+div.bg{
+    background-color:rgba(44,78,89,0.7);
+    /*background-image: url("/images/black-orchid.png");*/
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

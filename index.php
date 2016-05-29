@@ -9,9 +9,9 @@
 		<![endif]-->
 	</head>
 	<body id="home">
-
-		<h1>Welcome to Whitecap Interactive This shit is gonna be Boss!!</h1>
-
+		<div class="bg">
+			<h1>Welcome to Whitecap Interactive This shit is gonna be Boss!!</h1>
+		</div>
 	</body>
 <script src="js/jquery-2.2.3.min.js"></script>	
 <script src="js/whitecap.js"></script>
