@@ -37,6 +37,7 @@ get_header(); ?>
                 
             </div>
 
+            <!-- TEMP CODE - HENCE THE INLINE STYLES -->
             <div style="width: 70%; text-align: center; margin: 100px auto 50px auto; max-width:400px;">
                 <img src="/wp-content/themes/whitecap-theme/images/whitecap.png" width="100%" />
             </div>
@@ -44,6 +45,7 @@ get_header(); ?>
             <div style="margin: 0 auto; font-family: intro; color: #3c4c57; width: 100%; font-size: 3em; text-align: center;">
             We're coming...    
             </div>
+            <!-- /TEMP CODE - HENCE THE INLINE STYLES -->
             
             <a name="development"></a>
             <div class="front-page-development container">
