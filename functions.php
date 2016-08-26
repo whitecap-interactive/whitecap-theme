@@ -59,18 +59,6 @@ function whitecap_setup() {
 		'caption',
 	) );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See https://developer.wordpress.org/themes/functionality/post-formats/
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'whitecap_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -114,9 +102,19 @@ add_action( 'widgets_init', 'whitecap_widgets_init' );
  * Enqueue scripts and styles.
  */
 function whitecap_scripts() {
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css');
+
+	wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/css/bootstrap-theme.min.css');
+
 	wp_enqueue_style( 'whitecap-style', get_stylesheet_uri() );
+    
+    // deregister default jQuery included with Wordpress
+    wp_deregister_script( 'jquery' );
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-3.1.0.min.js', array(), '20150705', true );
 
 	wp_enqueue_script( 'whitecap-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+    
+    wp_enqueue_script( 'whitecap-global', get_template_directory_uri() . '/js/global.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'whitecap-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -150,63 +148,3 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
-//METABOX TEST
-add_filter( 'rwmb_meta_boxes', 'test_register_meta_boxes' );	
-/**
- * Register meta boxes
- *
- * Remember to change "your_prefix" to actual prefix in your project
- *
- * @param array $meta_boxes List of meta boxes
- *
- * @return array
- */
-function test_register_meta_boxes( $meta_boxes )
-{
-	/**
-	 * prefix of meta keys (optional)
-	 * Use underscore (_) at the beginning to make keys hidden
-	 * Alt.: You also can make prefix empty to disable it
-	 */
-	// Better has an underscore as last sign
-	$prefix = 'test_';
-	// 1st meta box
-	$meta_boxes[] = array(
-		// Meta box id, UNIQUE per meta box. Optional since 4.1.5
-		'id'         => 'test',
-		// Meta box title - Will appear at the drag and drop handle bar. Required.
-		'title'      => __( 'Standard Fields', 'test' ),
-		// Post types, accept custom post types as well - DEFAULT is 'post'. Can be array (multiple post types) or string (1 post type). Optional.
-		'post_types' => array( 'post', 'page' ),
-		// Where the meta box appear: normal (default), advanced, side. Optional.
-		'context'    => 'normal',
-		// Order of meta box: high (default), low. Optional.
-		'priority'   => 'high',
-		// Auto save: true, false (default). Optional.
-		'autosave'   => true,
-
-		'fields' => array(
-			// DATETIME
-			array(
-				'name'       => __( 'Start Date.', 'kingsbury' ),
-				'id'         => $prefix . 'datetime',
-				'type'       => 'datetime',
-				'clone' => true,
-			),
-
-		),
-
-	);
-	
-	return $meta_boxes;
-}
-
-
-
-
-
-
-
-
-
-

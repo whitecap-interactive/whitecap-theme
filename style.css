@@ -1,8 +1,8 @@
 /*
-Theme Name: whitecap
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
+Theme Name: Whitecap
+Theme URI: http://whitecap.io/
+Author: Whitecap Interactive
+Author URI: http://whitecap.io/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -36,7 +36,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Widgets
 # Content
 	## Posts and pages
-	## Asides
 	## Comments
 # Infinite scroll
 # Media
@@ -261,15 +260,40 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'EncodeSansCondensed-Regular';
+    src:url('fonts/EncodeSansCondensed-Regular.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EncodeSansCondensed-Thin';
+    src:url('fonts/EncodeSansCondensed-Thin.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src:url('/fonts/Intro.ttf.woff') format('woff'),
+        url('/fonts/Intro.ttf.svg#Intro') format('svg'),
+        url('/fonts/Intro.ttf.eot'),
+        url('/fonts/Intro.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
 body,
 button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
-	font-size: 16px;
-	font-size: 1rem;
+	color: #3B4C57;
+	font-family: 'EncodeSansCondensed-Thin', sans-serif;
+	font-size: 18px;
 	line-height: 1.5;
 }
 
@@ -411,6 +435,153 @@ table {
 	width: 100%;
 }
 
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: #aaa #bbb #bbb;
+	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.site-header {
+    height: 200px;
+    background: url(images/header-bg.png) center no-repeat;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.site-header-small {
+    height: 80px;
+    background: rgba(59, 75, 87, 0.75);
+}
+
+.site-logo {
+    position: fixed;
+    height: 180px;
+    width: 100%;
+    background: url(images/whitecap-logo-white-large.png) center/160px 157px no-repeat;
+}
+
+.site-logo-small {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: url(images/whitecap-logo-white-small.png) center/120px 52px no-repeat;
+}
+
+.site-branding {
+    text-indent: -9999px;
+}
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: royalblue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: midnightblue;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
 
 /*--------------------------------------------------------------
 ## Menus
@@ -526,6 +697,42 @@ table {
 	width: 50%;
 }
 
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
 
 /*--------------------------------------------------------------
 # Alignments
@@ -579,6 +786,159 @@ table {
 }
 
 /*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.content-area {
+    
+}
+
+/*--------------------------------------------------------------
+## Front Page
+--------------------------------------------------------------*/
+.front-page-intro {
+    height:auto;
+    width: 100%;
+    background: url(images/whitecap-dark-bg.jpg) top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 300px 0 0 0;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page-intro {
+        height:100vh;
+    }       
+}
+    
+
+.intro-icons div {
+    text-align: center;
+    height: 240px;
+    padding: 120px 0 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-family: 'EncodeSansCondensed-Thin';
+    letter-spacing: 3px;
+}
+
+.intro-icons .zero-height {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.icon-development {
+    background: url(images/front-page/icon-development.png) top/150px 100px no-repeat;
+}
+
+.icon-design {
+    background: url(images/front-page/icon-design.png) top/150px 100px no-repeat;
+}
+
+.icon-branding {
+    background: url(images/front-page/icon-branding.png) top/150px 100px no-repeat;
+}
+
+.icon-media {
+    background: url(images/front-page/icon-media.png) top/150px 100px no-repeat;
+}
+
+.icon-strategy {
+    background: url(images/front-page/icon-strategy.png) top/150px 100px no-repeat;
+}
+
+.icon-sherpas {
+    background: url(images/front-page/icon-sherpas.png) top/150px 100px no-repeat;
+}
+
+.front-page-development {
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+    background: #3B4C57;
+    color: #fff;
+    min-height: 200px;
+}
+
+.footer-logo {
+    float: right;
+    background: url(images/whitecap-logo-white-small.png) right/100px 43px no-repeat;
+    width: 100px; 
+    height: 43px;
+    margin: 80px 40px 20px 40px;
+}
+
+.copyright {
+    float: right;
+    margin: 0 40px 40px 40px;
+}
+
+/*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
@@ -611,36 +971,74 @@ object {
 	max-width: 100%;
 }
 
-/*------------------------------------*\
-    WHITECAP STYLES
-\*------------------------------------*/
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
 
-body { 
-  background:url(images/wc-bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-body#home {
-    
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
 }
-div.bg{
-    background-color:rgba(44,78,89,0.7);
-    /*background-image: url("/images/black-orchid.png");*/
-    height: 100vh;
+
+.wp-caption-text {
+	text-align: center;
 }
-.site-branding .logo{
-    background:url(images/wc-logo.png) no-repeat;
-    background-size: 80px 80px;
-    height: 80px;
-    width: 80px;
-    margin: 0 auto;
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
 }
-header{
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: darkolivegreen;
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
 }
