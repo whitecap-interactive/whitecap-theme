@@ -15,7 +15,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main front-page" role="main">
 
             <div class="front-page-intro container">
             
@@ -57,9 +57,10 @@ get_header(); ?>
             
             <a name="design"></a>
             <div class="front-page-design container">
-            
-                <h2>UI/UX Design Content</h2>
-                
+                <div class="title-underline">
+                    <h2>UI/UX Design Content</h2>
+                </div>
+                <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
             </div>
             
             <a name="branding"></a>
