@@ -38,13 +38,13 @@ get_header(); ?>
             </div>
 
             <!-- TEMP CODE - HENCE THE INLINE STYLES -->
-            <div style="width: 70%; text-align: center; margin: 100px auto 50px auto; max-width:400px;">
+            <!-- <div style="width: 70%; text-align: center; margin: 100px auto 50px auto; max-width:400px;">
                 <img src="/wp-content/themes/whitecap-theme/images/whitecap.png" width="100%" />
             </div>
 
             <div style="margin: 0 auto; font-family: intro; color: #3c4c57; width: 100%; font-size: 3em; text-align: center;">
             We're coming...    
-            </div>
+            </div> -->
             <!-- /TEMP CODE - HENCE THE INLINE STYLES -->
             
             <a name="development"></a>
@@ -61,8 +61,11 @@ get_header(); ?>
                     <h2>UI/UX Design Content</h2>
                 </div>
                 <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
+
             </div>
-            
+            <div class="full-width-img-wrap">
+                <img class="full-width-img" src="/wp-content/themes/whitecap-theme/images/front-page/computer.jpg" width="100%" />
+            </div>
             <a name="branding"></a>
             <div class="front-page-branding container">
             
