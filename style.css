@@ -293,8 +293,8 @@ select,
 textarea {
 	color: #3B4C57;
 	font-family: 'EncodeSansCondensed-Thin', sans-serif;
-	font-size: 18px;
-	line-height: 1.5;
+	font-size: 20px;
+	line-height: 1.6;
 }
 
 h1,
@@ -865,27 +865,89 @@ a:active {
 .icon-sherpas {
     background: url(images/front-page/icon-sherpas.png) top/150px 100px no-repeat;
 }
+
 .full-width-img{
 	width: 100%;
 }
+
 .front-page h2{
 	font-size: 1.8em;
 	padding: 20px 30px 20px 30px;
 }
+
+.front-page h2.development {
+    background: url(images/front-page/icon-dark-development.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
+.front-page h2.design {
+    background: url(images/front-page/icon-dark-design.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
+.front-page h2.branding {
+    background: url(images/front-page/icon-dark-branding.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
+.front-page h2.media {
+    background: url(images/front-page/icon-dark-media.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
+.front-page h2.strategy {
+    background: url(images/front-page/icon-dark-strategy.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
+.front-page h2.sherpas {
+    background: url(images/front-page/icon-dark-sherpas.png) no-repeat;
+    background-size: 120px;
+    text-indent: 120px;
+    height: 120px;
+}
+
 .front-page p{
 	margin-top: 20px;
 	text-align: center;
 	font-size: 1.3em;
 }
-.front-page .title-underline h2{
+
+.front-page section {
+	text-align: center;
+    padding: 100px 0;
+}
+
+.front-page section h2 {
 	display: inline-block;
 	border-bottom: 1px solid #3B4C57;
 }
-.front-page .title-underline{
-	text-align: center;
-}
+
 .front-page-development {
     text-align: center;
+}
+
+.front-page-branding .brand-image {
+    background: url(images/front-page/branding.jpg);
+    background-size: cover;
+}
+
+.front-page-branding .brand-copy {
+    background: #F5F4F4;
+}
+
+.front-page-branding .branding-encode-thin {
+    font-size: 2em;
 }
 
 /*--------------------------------------------------------------

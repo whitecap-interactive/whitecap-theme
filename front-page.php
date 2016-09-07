@@ -47,52 +47,64 @@ get_header(); ?>
             </div> -->
             <!-- /TEMP CODE - HENCE THE INLINE STYLES -->
             
-            <a name="development"></a>
-            <div class="front-page-development container">
-            
-                <h2>Mobile/App/Web Development</h2>
-                <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
-                
-            </div>
-            
-            <a name="design"></a>
-            <div class="front-page-design container">
-                <div class="title-underline">
-                    <h2>UI/UX Design Content</h2>
+            <section>
+                <a name="development"></a>
+                <div class="front-page-development container">
+                    <div class="">
+                        <h2 class="development">Mobile/App/Web Development</h2>
+                        <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
+                    </div>
                 </div>
-                <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
+            </section>
+            
+            <section>
+                <a name="design"></a>
+                <div class="front-page-design container">
+                    <h2 class="design">UI/UX Design</h2>
+                    <p>Words about things.</p>
+                </div>
+                <div class="full-width-img-wrap">
+                    <img class="full-width-img" src="/wp-content/themes/whitecap-theme/images/front-page/computer.jpg" width="100%" />
+                </div>
+            </section>
+            
+            <section>
+                <a name="branding"></a>
+                <div class="front-page-branding container-fluid">
+                    <h2 class="branding">Branding</h2>
 
-            </div>
-            <div class="full-width-img-wrap">
-                <img class="full-width-img" src="/wp-content/themes/whitecap-theme/images/front-page/computer.jpg" width="100%" />
-            </div>
-            <a name="branding"></a>
-            <div class="front-page-branding container">
+                    <div class="row">
+                        <div class="col-sm-6 nopadding brand-image">
+                            left
+                        </div>
+                        <div class="col-sm-6 nopadding brand-copy">
+                            <div class="branding-encode-thin">Our passion for design.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
             
-                <h2>Branding Content</h2>
-                
-            </div>
-            
-            <a name="media"></a>
-            <div class="front-page-media container">
-            
-                <h2>Media Production Content</h2>
-                
-            </div>
-            
-            <a name="strategy"></a>
-            <div class="front-page-strategy container">
-            
-                <h2>Strategy Content</h2>
-                
-            </div>
-            
-            <a name="sherpas"></a>
-            <div class="front-page-sherpas container">
-            
-                <h2>Sherpas Content</h2>
-                
-            </div>            
+            <section>
+                <a name="media"></a>
+                <div class="front-page-media container">
+                    <h2 class="media">Media Production</h2>
+                </div>
+            </section>
+
+            <section>
+                <a name="strategy"></a>
+                <div class="front-page-strategy container">
+                    <h2 class="strategy">Strategy</h2>
+                </div>
+            </section>
+
+            <section>
+                <a name="sherpas"></a>
+                <div class="front-page-sherpas container">
+                    <h2 class="sherpas">Sherpas</h2>
+                </div>
+            </section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
