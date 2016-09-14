@@ -108,8 +108,21 @@ get_header(); ?>
 
             <section>
                 <a name="sherpas"></a>
-                <div class="front-page-sherpas container">
+                <div class="front-page-sherpas container-fluid">
                     <h2 class="sherpas">Sherpas</h2>
+                    <p>We're proud to call <span class="font-intro">Utah</span> home, and we're always looking for excuses to get outside and enjoy this place.</p>
+                    <p class="font-intro">Itching for that perfect powder day?</p>
+                    <div class="row">
+                        <div class="superior"> </div>
+                    </div>
+                    <!--<p>&nbsp;</p>
+                    <p class="font-intro">Need to hit the mental reset button with a visit to Utah's canyon country?</p>
+                    <p>&nbsp;</p>
+                    <div class="row">
+                        <div class="superior"> </div>
+                    </div>-->
+                    <p>&nbsp;</p>
+                    <h3 class="font-intro">Hit us up. We'd love to show you around.</h3>
                 </div>
             </section>
 
