@@ -1036,7 +1036,7 @@ a:active {
 .site-footer {
     background: #3B4C57;
     color: #fff;
-    min-height: 200px;
+    min-height: 180px;
 }
 
 .footer-logo {
@@ -1044,12 +1044,14 @@ a:active {
     background: url(images/whitecap-logo-white-small.png) right/100px 43px no-repeat;
     width: 100px; 
     height: 43px;
-    margin: 80px 40px 20px 40px;
+    margin: 100px 46px 10px 40px;
 }
 
 .copyright {
     float: right;
-    margin: 0 40px 40px 40px;
+    clear: both;
+    margin: 0 40px 20px 40px;
+    font-family: 'Intro';
 }
 
 /*--------------------------------------------------------------

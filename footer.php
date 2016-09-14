@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
             <div class="footer-logo"> </div>
-            <!--<div class="copyright">&copy; <?php echo date("Y");?> Whitecap Interactive</div>-->
+            <div class="copyright">&copy; <?php echo date("Y");?> Whitecap</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
