@@ -876,50 +876,45 @@ a:active {
 }
 
 .front-page h2{
-	font-size: 1.8em;
+	font-size: 1.6em;
 	padding: 20px 30px 20px 30px;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    text-indent: 64px;
+    height: 90px;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page h2{
+        font-size: 1.8em;
+        background-size: 120px;
+        text-indent: 120px;
+        height: 120px;
+    }       
 }
 
 .front-page h2.development {
-    background: url(images/front-page/icon-dark-development.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-development.png);
 }
 
 .front-page h2.design {
-    background: url(images/front-page/icon-dark-design.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-design.png);
 }
 
 .front-page h2.branding {
-    background: url(images/front-page/icon-dark-branding.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-branding.png);
 }
 
 .front-page h2.media {
-    background: url(images/front-page/icon-dark-media.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-media.png);
 }
 
 .front-page h2.strategy {
-    background: url(images/front-page/icon-dark-strategy.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-strategy.png);
 }
 
 .front-page h2.sherpas {
-    background: url(images/front-page/icon-dark-sherpas.png) no-repeat;
-    background-size: 120px;
-    text-indent: 120px;
-    height: 120px;
+    background-image: url(images/front-page/icon-dark-sherpas.png);
 }
 
 .front-page p{

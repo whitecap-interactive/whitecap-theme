@@ -51,7 +51,7 @@ get_header(); ?>
                 <a name="development"></a>
                 <div class="front-page-development container">
                     <div>
-                        <h2 class="development">Mobile/App/Web Development</h2>
+                        <h2 class="development">Mobile, App & Web Development</h2>
                         <p>The Whitecap development team is here to guide you through today's digital landscape. Need a new website? You've come to the right place. Mobile app? Yep. Custom WordPress theme? Boom goes the dynamite.</p>
                         <p class="font-intro" style="font-size: 2em;">Whitecap is your team.</p>
                         <h3>(check out some of our work)</h3>
