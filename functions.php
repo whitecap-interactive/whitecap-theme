@@ -105,6 +105,8 @@ function whitecap_scripts() {
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css');
 
 	wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/css/bootstrap-theme.min.css');
+    
+    wp_enqueue_style( 'dashicons' );
 
 	wp_enqueue_style( 'whitecap-style', get_stylesheet_uri() );
     

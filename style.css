@@ -286,6 +286,10 @@ th {
         font-style: normal;
 }
 
+.font-intro {
+    font-family: 'Intro';
+}
+
 body,
 button,
 input,
@@ -936,6 +940,36 @@ a:active {
 
 .front-page-development {
     text-align: center;
+}
+
+.work-nondesigns, .work-cosmomuse {
+    height: 600px;
+}
+
+@media only screen and (min-width: 1025px) { /* For tablet/desktop: */
+    .work-nondesigns, .work-cosmomuse {
+        opacity: 0.6;
+    }       
+}
+
+.work-nondesigns:hover, .work-cosmomuse:hover {
+    opacity: 1;
+}
+
+.work-nondesigns a, .work-cosmomuse a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.work-nondesigns {
+    background: url(images/front-page/work-nondesigns.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.work-cosmomuse {
+    background: url(images/front-page/work-cosmomuse.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .front-page-branding .brand-image {

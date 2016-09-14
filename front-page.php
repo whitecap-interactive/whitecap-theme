@@ -50,10 +50,17 @@ get_header(); ?>
             <section>
                 <a name="development"></a>
                 <div class="front-page-development container">
-                    <div class="">
+                    <div>
                         <h2 class="development">Mobile/App/Web Development</h2>
-                        <p>The Whitecap development team is here to guide you through today's digital landscape. Whether you need a website, mobile app, custom WordPress theme, SEO optimization, or simply need to bring your digital idea to fruition, Whitecap is your team.</p>
+                        <p>The Whitecap development team is here to guide you through today's digital landscape. Need a new website? You've come to the right place. Mobile app? Yep. Custom WordPress theme? Boom goes the dynamite.</p>
+                        <p class="font-intro" style="font-size: 2em;">Whitecap is your team.</p>
+                        <h3>(check out some of our work)</h3>
+                        <p><span class="dashicons dashicons-arrow-down-alt2" style="font-size: 4em; width: auto; height: auto;"></span></p>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 work-nondesigns"><a href="http://www.nondesigns.com" target="_blank"></a></div>
+                    <div class="col-sm-6 work-cosmomuse"> <a href="http://www.cosmomuse.com" target="_blank"></a></div>
                 </div>
             </section>
             
