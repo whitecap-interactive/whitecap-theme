@@ -819,7 +819,7 @@ a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     position: relative;
     padding: 300px 0 0 0;
 }
@@ -827,6 +827,7 @@ a:active {
 @media only screen and (min-width: 768px) { /* For tablet/desktop: */
     .front-page-intro {
         height:100vh;
+        background-attachment: fixed;
     }       
 }
     
@@ -877,7 +878,7 @@ a:active {
 
 .front-page h2{
 	font-size: 1.4em;
-	padding: 20px 30px 20px 30px;
+	padding: 13px 30px 20px 30px;
     background-repeat: no-repeat;
     background-size: 90px;
     text-indent: 64px;
@@ -887,10 +888,11 @@ a:active {
 @media only screen and (min-width: 768px) { /* For tablet/desktop: */
     .front-page h2{
         font-size: 1.8em;
+        padding: 20px 30px 20px 30px;
         background-size: 120px;
         text-indent: 120px;
         height: 120px;
-    }       
+    }     
 }
 
 .front-page h2.development {
@@ -920,7 +922,13 @@ a:active {
 .front-page p{
 	margin-top: 20px;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page p {
+        font-size: 1.3em;
+    }    
 }
 
 .front-page section {
@@ -938,7 +946,13 @@ a:active {
 }
 
 .work-nondesigns, .work-cosmomuse {
-    height: 600px;
+    height: 300px;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .work-nondesigns, .work-cosmomuse {
+        height: 600px;
+    }    
 }
 
 @media only screen and (min-width: 1025px) { /* For tablet/desktop: */
@@ -991,9 +1005,15 @@ a:active {
 .front-page-sherpas .superior {
     background: url(images/front-page/sherpas-superior.jpg) top no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     width: 100%;
     height: 600px;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page-sherpas .superior {
+        background-attachment: fixed;
+    }       
 }
 
 /*--------------------------------------------------------------
