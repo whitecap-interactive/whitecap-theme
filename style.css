@@ -980,7 +980,9 @@ a:active {
     background: url(images/front-page/work-cosmomuse.jpg) center no-repeat;
     background-size: cover;
 }
-
+.front-page-branding{
+	min-height: 800px;
+}
 .front-page-branding .brand-image {
     background: url(images/front-page/branding.jpg);
     background-size: cover;
@@ -992,6 +994,24 @@ a:active {
 
 .front-page-branding .branding-encode-thin {
     font-size: 2em;
+}
+.front-page-media{
+	position: relative;
+	height: 700px;
+	overflow: hidden;
+}
+video#bgvid { 
+    position: absolute;
+    /*top: 50%;
+    left: 50%;*/
+    width: 100%;
+    height: 700px;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(images/ordinary-elephant.jpg) no-repeat;*/
+    background-size: cover; 
+    /*background-attachment: fixed;*/
 }
 
 .front-page-sherpas .slc-pano {

@@ -96,7 +96,14 @@ get_header(); ?>
                 <a name="media"></a>
                 <div class="front-page-media container">
                     <h2 class="media">Media Production</h2>
+                    
                 </div>
+                <div class="video">
+                        <video id="bgvid" autoplay loop poster="<?php echo get_template_directory_uri();?>/video/fanup-cover.jpg">
+                            <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.webm" type="video/webm">
+                            <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.mp4" type="video/mp4">
+                        </video>
+                </div><!-- end video div -->
             </section>
 
             <section>
