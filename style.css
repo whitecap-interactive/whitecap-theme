@@ -1152,6 +1152,18 @@ video#bgvid {
     min-height: 180px;
 }
 
+.lets-talk-tab {
+    display: inline;
+    float: left; 
+    font-family: 'Intro';
+    background: #fff;
+    color: #3B4C57;
+    padding: 8px 30px 6px 50px;
+    text-align: center;
+    margin: 50px 0 0 -20px;
+    border-radius: 10px;
+}
+
 .footer-logo {
     float: right;
     background: url(images/whitecap-logo-white-small.png) right/100px 43px no-repeat;
