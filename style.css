@@ -1153,10 +1153,13 @@ video#bgvid {
 }
 
 .lets-talk-tab {
-    display: inline;
-    float: left; 
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    /*display: inline;
+    float: left; */
     font-family: 'Intro';
-    background: #fff;
+    background: #F5F4F4;
     color: #3B4C57;
     padding: 8px 30px 6px 50px;
     text-align: center;
