@@ -114,7 +114,7 @@ get_header(); ?>
                     <p>Have a story to tell? </p>
                 </div><br clear="all" />
                 <div class="video row">
-                        <video id="bgvid" autoplay loop poster="<?php echo get_template_directory_uri();?>/video/fanup-cover.jpg">
+                        <video id="bgvid" autoplay loop poster="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.jpg">
                             <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.webm" type="video/webm">
                             <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.mp4" type="video/mp4">
                         </video>
