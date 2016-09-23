@@ -17,7 +17,7 @@
 		<div class="site-info">
             <div class="lets-talk-tab">Let's Talk</div>
             <div class="footer-logo"> </div>
-            <div class="copyright">&copy; <?php echo date("Y");?> Whitecap</div>
+            <div class="copyright"><span class="copy-symbol">&copy;</span> <?php echo date("Y");?> Whitecap</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

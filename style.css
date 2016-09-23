@@ -1179,6 +1179,10 @@ video#bgvid {
     font-family: 'Intro';
 }
 
+.copy-symbol {
+    font-family: 'EncodeSansCondensed-Regular';
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
