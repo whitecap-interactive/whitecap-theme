@@ -1165,6 +1165,11 @@ video#bgvid {
     text-align: center;
     margin: 50px 0 0 -20px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.lets-talk-tab:hover {
+    padding: 8px 30px 6px 60px;
 }
 
 .footer-logo {
