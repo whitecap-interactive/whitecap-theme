@@ -96,6 +96,11 @@ get_header(); ?>
                                 <div class="font-intro">ABCDEFGHIJKLMNOPQRSTUVWXYZ | 1234567890</div>
                                 <div class="font-pacifico">abcdefghijklmnopqrstuvwxyz | 1234567890</div>
                             </div>
+                            <div class="row">
+                                <div class="brand-color white col-sm-3 nopadding">#FFFFFF</div>
+                                <div class="brand-color gray col-sm-3 nopadding">#F5F4F4</div>
+                                <div class="brand-color blue col-sm-6 nopadding">#3B4C57</div>
+                            </div>
                         </div>
                     </div>
 
@@ -106,14 +111,15 @@ get_header(); ?>
                 <a class="anchor" name="media"></a>
                 <div class="front-page-media container">
                     <h2 class="media">Media Production</h2>
-                    
-                </div>
-                <div class="video">
+                    <p>Have a story to tell? </p>
+                </div><br clear="all" />
+                <div class="video row">
                         <video id="bgvid" autoplay loop poster="<?php echo get_template_directory_uri();?>/video/fanup-cover.jpg">
                             <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.webm" type="video/webm">
                             <source src="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.mp4" type="video/mp4">
                         </video>
                 </div><!-- end video div -->
+                <br clear="all" />
             </section>
 
             <section>

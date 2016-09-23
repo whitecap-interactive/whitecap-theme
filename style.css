@@ -989,9 +989,9 @@ a.anchor {
     background: url(images/front-page/work-cosmomuse.jpg) center no-repeat;
     background-size: cover;
 }
-.front-page-branding{
+/*.front-page-branding{
 	min-height: 800px;
-}
+}*/
 .front-page-branding .brand-image {
     background: url(images/front-page/branding.jpg) center;
     background-size: cover;
@@ -1000,7 +1000,7 @@ a.anchor {
 
 @media only screen and (min-width: 768px) { /* For tablet/desktop: */
     .front-page-branding .brand-image {
-        height: 500px;
+        height: 600px;
     }    
 }
 
@@ -1008,7 +1008,13 @@ a.anchor {
     background: #F5F4F4;
     text-align: left;
     padding: 15px 15px 20px 15px;
-    height: 500px;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page-branding .brand-copy {
+        height: 600px;
+        overflow: hidden;
+    }    
 }
 
 .front-page-branding .brand-encode {
@@ -1028,21 +1034,41 @@ a.anchor {
 .front-page-branding .branding-copy-chunk {
     padding: 24px 0;
 }
+
+.front-page-branding .brand-color {
+    height: 160px;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.front-page-branding .white {
+    background: #fff;
+}
+
+.front-page-branding .gray {
+    background: #f5f4f4;
+}
+
+.front-page-branding .blue {
+    background: #3b4c57;
+    color: #fff;
+}
+
 .front-page-media{
-	position: relative;
+	/*position: relative;
 	height: 700px;
-	overflow: hidden;
+	overflow: hidden;*/
 }
 video#bgvid { 
-    position: absolute;
-    /*top: 50%;
+    /*position: absolute;
+    top: 50%;
     left: 50%;*/
     width: 100%;
-    height: 700px;
+    /*height: 700px;*/
     z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
+    /*-webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    /*background: url(images/ordinary-elephant.jpg) no-repeat;*/
+    background: url(images/ordinary-elephant.jpg) no-repeat;*/
     background-size: cover; 
     /*background-attachment: fixed;*/
 }
