@@ -17,10 +17,10 @@ $(function() {
 
 //Contact form popup
 jQuery(document).ready(function ($) {
-     $('#open-popup').magnificPopup({
+     $('#open-contact-popup').magnificPopup({
         items: [
           {
-            src: '#my-popup', // CSS selector of an element on page that should be used as a popup
+            src: '#contact-popup', // CSS selector of an element on page that should be used as a popup
             type: 'inline'
           }
         ],

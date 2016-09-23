@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+		<div id="open-contact-popup" class="site-info">
             <div class="lets-talk-tab">Let's Talk</div>
             <div class="footer-logo"> </div>
             <div class="copyright"><span class="copy-symbol">&copy;</span> <?php echo date("Y");?> Whitecap</div>

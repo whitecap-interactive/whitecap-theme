@@ -150,11 +150,11 @@ get_header(); ?>
                 </div>
             </section>
 
-<button id="open-contact-popup">Open popup</button>
 
-<div id="contact-popup" class="mfp-hide white-popup">
+
+<div id="contact-popup" class="mfp-hide contact-us-popup">
   <?php
-   echo do_shortcode( '[formidable id="2"]' );
+   echo do_shortcode( '[formidable id="4"]' );
   ?>
 </div>
 
