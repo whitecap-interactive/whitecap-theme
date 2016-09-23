@@ -111,7 +111,8 @@ get_header(); ?>
                 <a class="anchor" name="media"></a>
                 <div class="front-page-media container">
                     <h2 class="media">Media Production</h2>
-                    <p>Have a story to tell? </p>
+                    <p>Have a story to tell? The Whitecap team is at home behind the lens. We love the opportunity to immerse into a project to convey the same passion you do.</p>
+                    <p class="font-intro" style="font-size: 2em;">Whitecap can help you share your story.</p>
                 </div><br clear="all" />
                 <div class="video row">
                         <video id="bgvid" autoplay loop poster="<?php echo get_template_directory_uri();?>/images/ordinary-elephant.jpg">
