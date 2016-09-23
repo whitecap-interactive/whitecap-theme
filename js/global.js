@@ -4,7 +4,7 @@ $(function() {
     var logo = $('.site-logo');
     
     $(window).scroll(function() {
-        if( $(this).scrollTop() > 400 ) {
+        if( $(this).scrollTop() > 600 ) {
             header.addClass('site-header-small');
             logo.addClass('site-logo-small');
         } else {

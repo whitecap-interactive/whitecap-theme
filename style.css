@@ -290,6 +290,10 @@ th {
     font-family: 'Intro';
 }
 
+.font-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
 body,
 button,
 input,
@@ -808,6 +812,11 @@ a:active {
     
 }
 
+a.anchor {
+    display: inline-block;
+    margin: 0 0 100px 0;
+}
+
 /*--------------------------------------------------------------
 ## Front Page
 --------------------------------------------------------------*/
@@ -933,7 +942,7 @@ a:active {
 
 .front-page section {
 	text-align: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .front-page section h2 {
@@ -984,16 +993,40 @@ a:active {
 	min-height: 800px;
 }
 .front-page-branding .brand-image {
-    background: url(images/front-page/branding.jpg);
+    background: url(images/front-page/branding.jpg) center;
     background-size: cover;
+    height: 300px;
+}
+
+@media only screen and (min-width: 768px) { /* For tablet/desktop: */
+    .front-page-branding .brand-image {
+        height: 500px;
+    }    
 }
 
 .front-page-branding .brand-copy {
     background: #F5F4F4;
+    text-align: left;
+    padding: 15px 15px 20px 15px;
+    height: 500px;
 }
 
-.front-page-branding .branding-encode-thin {
-    font-size: 2em;
+.front-page-branding .brand-encode {
+    line-height: 1.3em;
+}
+
+.front-page-branding .brand-pacifico {
+    padding: 0 0 10px 0;
+    margin: -14px 0 0 0;
+}
+
+.front-page-branding .branding-large {
+    font-size: 1.8em;
+    line-height: 1.3em;
+}
+
+.front-page-branding .branding-copy-chunk {
+    padding: 24px 0;
 }
 .front-page-media{
 	position: relative;

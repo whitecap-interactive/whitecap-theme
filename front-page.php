@@ -48,7 +48,7 @@ get_header(); ?>
             <!-- /TEMP CODE - HENCE THE INLINE STYLES -->
             
             <section>
-                <a name="development"></a>
+                <a class="anchor" name="development"></a>
                 <div class="front-page-development container">
                     <div>
                         <h2 class="development">Mobile, App & Web Development</h2>
@@ -65,7 +65,7 @@ get_header(); ?>
             </section>
             
             <section>
-                <a name="design"></a>
+                <a class="anchor" name="design"></a>
                 <div class="front-page-design container">
                     <h2 class="design">UI/UX Design</h2>
                     <p>Words about things.</p>
@@ -76,16 +76,26 @@ get_header(); ?>
             </section>
             
             <section>
-                <a name="branding"></a>
-                <div class="front-page-branding container-fluid">
+                <a class="anchor" name="branding"></a>
+                <div class="front-page-branding container">
                     <h2 class="branding">Branding</h2>
-
+                    <p>Our passion for design goes beyond imagery and color. We believe great design should solve problems while elevating a brand to excellence. We integrate brand identity into every facet of the digital experience to bring content and culture together.</p>
+                </div>
+                <div class="front-page-branding container-fluid">
                     <div class="row">
-                        <div class="col-sm-6 nopadding brand-image">
-                            left
-                        </div>
+                        <div class="col-sm-6 nopadding brand-image"> </div>
                         <div class="col-sm-6 nopadding brand-copy">
-                            <div class="branding-encode-thin">Our passion for design.</div>
+                            <div class="branding-copy-chunk brand-encode">
+                                <span class="branding-large">Encode Sans - Main Typeface Web</span><br />Encode Sans Condensed Thin - main web typeface and weight
+                                
+                            </div>
+                            <div class="branding-copy-chunk font-intro branding-large">INTRO - MAIN LOGO</div>
+                            <div class="branding-copy-chunk font-pacifico branding-large brand-pacifico">Pacifico - Secondary logo</div>
+                            <div class="branding-copy-chunk">
+                                <div class="">abcdefghijklmnopqrstuvwxyz | 1234567890</div>
+                                <div class="font-intro">ABCDEFGHIJKLMNOPQRSTUVWXYZ | 1234567890</div>
+                                <div class="font-pacifico">abcdefghijklmnopqrstuvwxyz | 1234567890</div>
+                            </div>
                         </div>
                     </div>
 
@@ -93,7 +103,7 @@ get_header(); ?>
             </section>
             
             <section>
-                <a name="media"></a>
+                <a class="anchor" name="media"></a>
                 <div class="front-page-media container">
                     <h2 class="media">Media Production</h2>
                     
@@ -107,14 +117,14 @@ get_header(); ?>
             </section>
 
             <section>
-                <a name="strategy"></a>
+                <a class="anchor" name="strategy"></a>
                 <div class="front-page-strategy container">
                     <h2 class="strategy">Strategy</h2>
                 </div>
             </section>
 
             <section>
-                <a name="sherpas"></a>
+                <a class="anchor" name="sherpas"></a>
                 <div class="front-page-sherpas container-fluid">
                     <h2 class="sherpas">Sherpas</h2>
                     <p>We're proud to call <span class="font-intro">Utah</span> home, and we're always looking for excuses to get outside and enjoy this place.</p>
@@ -130,6 +140,7 @@ get_header(); ?>
                     </div>-->
                     <p>&nbsp;</p>
                     <h3 class="font-intro">Hit us up. We'd love to show you around.</h3>
+                    <p>&nbsp;</p>
                 </div>
             </section>
 
