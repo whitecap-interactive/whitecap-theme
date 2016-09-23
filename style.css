@@ -531,6 +531,19 @@ textarea:focus {
 textarea {
 	width: 100%;
 }
+/*WHITECAP CONTACT FORM*/
+#open-contact-popup {
+	padding:20px
+}
+.contact-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Navigation

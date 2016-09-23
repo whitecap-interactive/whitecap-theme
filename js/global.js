@@ -14,3 +14,19 @@ $(function() {
     });
                      
 });
+
+//Contact form popup
+jQuery(document).ready(function ($) {
+     $('#open-popup').magnificPopup({
+        items: [
+          {
+            src: '#my-popup', // CSS selector of an element on page that should be used as a popup
+            type: 'inline'
+          }
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+});
