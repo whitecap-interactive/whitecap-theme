@@ -146,14 +146,17 @@ get_header(); ?>
                         <div class="superior"> </div>
                     </div>-->
                     <p>&nbsp;</p>
-                    <h3 class="font-intro">Hit us up. We'd love to show you around.</h3>
-                    <p>&nbsp;</p>
+                    <h3 class="font-pacifico">Hit us up. We'd love to show you around.</h3>
+                    <p> </p>
+                    <h3 class="font-intro" style="font-size: 2em;">(801) 505-9059  /  <a href="mailto:info@whitecap.io">info@whitecap.io</a></h3>
+                    <p> </p>
                 </div>
             </section>
 
 
 
 <div id="contact-popup" class="mfp-hide contact-us-popup">
+    <div class="font-intro"><h3 style="font-size: 2em;">Let's Talk</h3></div>
   <?php
    echo do_shortcode( '[formidable id="4"]' );
   ?>
